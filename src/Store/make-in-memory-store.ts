@@ -192,7 +192,7 @@ export default (
 					}
 				}
 
-				if(update!=undefined && update!=null){
+				if(update!=undefined && update!=null && contact!=undefined && contact!=null){
 					Object.assign(contacts[update.id!], contact)
 				}
 				
